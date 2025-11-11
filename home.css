@@ -1,0 +1,49 @@
+.container
+{
+    color: white;
+    margin-right: auto;
+    margin-left: 0cm;
+    margin-top: 6cm;
+    align-items: center;
+    text-align: center;
+}
+body
+{
+    margin-left: 0cm;
+}
+h2 ,p
+{
+  color: white;
+  margin-left: 10cm;
+}
+.button
+{
+  margin-left: 12cm;
+  margin-top: 1cm;
+  align-items: center;
+  text-align: center;
+} 
+.button {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.login,
+.signup {
+  padding: 
+  9px 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 6px;
+}
+.signup
+{
+  margin-left: 3cm;
+}
+.login
+{
+  margin-right: 2cm;
+}

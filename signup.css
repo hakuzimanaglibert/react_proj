@@ -1,0 +1,27 @@
+fieldset
+{
+    width: 50%;
+    height: auto;
+    border-radius: 1cm;
+    background-color: whitesmoke;
+    margin-top: 1cm;
+    align-items: center;
+    margin-left: 8cm;
+}
+label
+{
+    margin-right: 3cm;
+}
+input, button 
+{
+  display: block;
+  margin-bottom: 10px;
+}
+button
+{
+    background-color: green;
+}
+button, button
+{
+    padding: 1pc;
+}

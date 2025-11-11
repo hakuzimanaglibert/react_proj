@@ -1,0 +1,14 @@
+.footer-section {
+  background-color: black;
+  color: white;
+  /* padding: 10px 20px; */
+  text-align: center;
+  width: 115%;
+}
+
+
+.footer-table {
+  background-color: black;
+  width: 139%;
+  border-collapse: collapse;
+}

@@ -1,0 +1,30 @@
+.login-container {
+  height: auto;
+  width: fit-content;
+}
+.signup-link {
+  color: #0077ff;
+  text-decoration: none;
+}
+.login-link {
+  color: #fbfbfc;
+  text-decoration: none;
+}
+.signup{
+  color: #171718;
+  text-decoration: none;
+  text-align: left;
+  margin-left: 0cm;
+  margin-right: -2cm;
+}
+input
+{
+  width: 250px;
+  height: 25px;
+  margin-left: 2cm;
+  background-color: #dcdce2;
+}
+label, button
+{
+    margin-left: 2cm;
+}

@@ -1,0 +1,93 @@
+.products-page {
+  width: 100%;
+  padding: 0;        /* ✅ Remove extra space */
+  margin: 0;
+  background: #f7f7f7;
+  min-height: 100vh;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;          /* ✅ Smaller gap so images fill more space */
+  width: 100vw;      /* ✅ Use full screen width */
+  margin: 0;
+}
+
+
+.title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* ✅ Now 5 Columns */
+  gap: 18px;
+  width: 100%;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.product-img {
+  width: 100%;
+  height: 180px;         /* ✅ Fixed Height for same size */
+  object-fit: cover;     /* ✅ Makes images look neat */
+  border-radius: 8px;
+}
+
+
+.buy-btn {
+  margin-top: 8px;
+  padding: 8px 14px;
+  border: none;
+  background: #3d52a0;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buy-btn:hover {
+  background: #283a78;
+}
+
+/* ✅ Make grid responsive on smaller screens */
+@media (max-width: 1200px) {
+  .product-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 400px) {
+  .product-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
